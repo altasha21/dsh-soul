@@ -1,0 +1,7 @@
+# dsh-soul bundle patch layer.
+# Applied when a profile lists this bundle in its `dsh.profile.bundles`.
+# The plugin row references the package by its own name so Node resolution
+# finds the installed code (lib/index.js).
+- insert:
+    - id: dsh-soul
+      name: dsh-soul
